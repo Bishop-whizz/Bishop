@@ -1,0 +1,92 @@
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Listing</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Product Listing</h1>
+  
+  <div class="product-list">
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>Description of Product 1</p>
+      <button>Add to Cart</button>
+    </div>
+    
+    <div class="product">
+      <img src="product2.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>Description of Product 2</p>
+      <button>Add to Cart</button>
+    </div>
+    
+    <!-- Add more product entries here -->
+    
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+HTML (product detail page):
+
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Details</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Product Details</h1>
+  
+  <div class="product-details">
+    <img src="product1.jpg" alt="Product 1">
+    <h2>Product 1</h2>
+    <p>Description of Product 1</p>
+    <p>Price: $19.99</p>
+    <button>Add to Cart</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
+CSS (styles.css):
+
+css
+
+/* Add your custom styles here */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.product button {
+  display: block;
+  margin-top: 10px;
+}
